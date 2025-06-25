@@ -31,9 +31,13 @@
   }
 
   .navbar {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 16px; /* optional, für Abstand innen */
+    overflow-x: hidden; /* verhindert, dass etwas übersteht */
   }
     /*NAVBAR ENDE*/
 

@@ -16,6 +16,14 @@
   /*NAVBAR*/
   .menu-toggle {
     display: block;
+    font-size: 28px;         /* Damit das ☰ groß genug ist */
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    margin-left: auto;       /* Schiebt es ganz nach rechts */
+    padding: 8px 16px;
+    box-sizing: border-box;
   }
 
   .nav-links {

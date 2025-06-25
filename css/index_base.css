@@ -28,10 +28,12 @@ body {
 .lineb2{ font-size: 16px; display: flex; justify-content: center; }
 .lineb3{ font-size: 16px; display: flex; justify-content: center; }
 
-.linee1{ font-size: 16px; display: flex; }
-.linee2{ font-size: 16px; display: flex; }
-.linee3{ font-size: 16px; display: flex; }
-.linee4{ font-size: 16px; display: flex; }
+.einführungstext {
+  max-width: 900px;     /* Begrenzte Breite für gute Lesbarkeit */
+  margin: 20px auto;    /* Zentriert auf der Seite */
+  padding: 10px 20px;   /* Innenabstand */
+  text-align: center;  /* Blocktext-Ausrichtung */
+}
 
 
 /* Allgemeine Layouts */
@@ -55,7 +57,8 @@ body {
   opacity: 1.0;
 }
 
-/* Navbar */
+
+/* Grundlayout NAVBAR */
 .navbar {
   height: 40px;
   display: flex;
@@ -78,6 +81,47 @@ body {
   background-color: #E6D19D;
   border-radius: 4px;
 }
+
+/* Menü-Button für Mobilgeräte */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Navigation mobil ausblenden */
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+/* Navbar 
+.navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 400px;
+  margin: 5px 5px 0 5px;
+  background-color: #FFE8AE;
+}
+.navbar a {
+  color: #8E6C00;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.9s ease;
+}
+
+.navbar a:hover {
+  background-color: #E6D19D;
+  border-radius: 4px;
+}*/
 
 /* Home-Text */
 .home-text {

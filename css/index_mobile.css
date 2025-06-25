@@ -13,12 +13,39 @@
     font-size: 14px;
   }
 
+  /*NAVBAR*/
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    /*NAVBAR ENDE*/
+
+
+
+  /*
   .navbar {
     flex-direction: column;
     align-items: center;
     padding: 10px;
     gap: 5px;
   }
+*/
 
   .home-text {
     flex-direction: column;

@@ -106,8 +106,15 @@
     gap: 10px;
   }
 
+  /*
   .footer-section {
     text-align: center;
+  }
+  */
+
+  .footer-section {
+    flex: 0 0 100%;     /* volle Breite */
+    max-width: 100%;
   }
 
   .footer-bottom {
@@ -116,6 +123,10 @@
   }
 
   .footer-logo img {
-    height: 40px;
+    
+    text-align: center;
+    margin: 0;
+    width: 150px;
+    height: auto;
   }
 }

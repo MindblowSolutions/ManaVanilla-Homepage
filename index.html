@@ -5,106 +5,104 @@
     <meta charset="UTF-8">                                                      <!-- Zeichensatz für Umlaute etc. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!-- Sorgt dafür, dass die Seite auf allen Geräten (Handy, Tablet, PC) gut skaliert -->
     <title>ManaVanilla</title>                                                  <!-- Titel des Browser-Tabs -->
-    <link rel="stylesheet" href="css/index_base.css">                          <!-- Verknüpft die CSS-Datei -->
-    <link rel="stylesheet" href="css/index_mobile.css">
-    <link rel="stylesheet" href="css/index_tablet.css">
-    <link rel="stylesheet" href="css/Index_desktop.css">
+    <link rel="stylesheet" href="/css/index_base.css">                          <!-- Verknüpft die CSS-Datei -->
+    <link rel="stylesheet" href="/css/index_mobile.css">
+    <link rel="stylesheet" href="/css/index_tablet.css">
+    <link rel="stylesheet" href="/css/Index_desktop.css">
 </head>
 
 <body>
 
-    <div class="banner">                                                        <!-- Erstellt den fabigen balken -->
-        <div class="column">
-            <div class="line1">ManaVanilla</div>
-            <div class="line2">Mach dir die Welt lecker</div>
-        </div>
-    </div>                                                                      <!-- Schloeßendes div von <div class="banner"> (Z.21)  -->
-
-    <div class="Titelbild">
-        <img src="img/Vanille.jpg" alt="Vanille">
+  <header class="banner"> <!-- "header" statt "div" für semantische Bedeutung -->
+    <div class="column">
+      <h1 class="line1">ManaVanilla</h1> <!-- h1 ist wichtig für SEO -->
+      <p class="line2">Mach dir die Welt lecker</p>
     </div>
+  </header>
+
+  <section class="Titelbild">
+    <img src="/img/Vanille.jpg" alt="Frische Vanilleschoten aus Madagaskar">
+  </section>
 
    
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="Ueberuns.html">Über uns</a>
-        <a href="Produkte.html">Produke</a>
-        <a href="kontakt.html">Kontakt</a>
-        <a href="Login.html">Login</a>
-    </nav>
+  <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="Ueberuns.html">Über uns</a>
+      <a href="Produkte.html">Produke</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="Login.html">Login</a>
+  </nav>
    
 
-    <div class="home-text">
-      <div class="begrüßung">
-        <div class="lineb1">Willkommen bei ManaVanilla </div>
-        <div class="lineb2">Ihrem vertrauenswürdigen Partner für hochwertige und faire Bio-Vanille aus Mananara an der Ostküste Madagaskars.</div>
-        <div class="lineb3">Tauchen Sie ein in die traditionsreiche Geschichte unseres familiengeführten landwirtschaftlichen Betriebs seit 1940.</div>
-      </div>
+  <div class="home-text">
+    <div class="begrüßung">
+      <p class="lineb1">Willkommen bei ManaVanilla</p>
+      <p class="lineb2">Ihrem vertrauenswürdigen Partner für hochwertige und faire Bio-Vanille aus Mananara an der Ostküste Madagaskars.</p>
+      <p class="lineb3">Tauchen Sie ein in die traditionsreiche Geschichte unseres familiengeführten landwirtschaftlichen Betriebs seit 1940.</p>
     </div>
+  </div>
 
-    <!-- Hier kommt der Button zum Shop hin-->
-    <div class="shopcontainer">
-      <div class="shopbutton">
-          <a href="https://www.manavanilla.com/shop/">Zum Shop</a>
-      </div>
-    </div>
+  <!-- Hier kommt der Button zum Shop hin-->
+  <div class="shopcontainer">
+     <div class="shopbutton">
+        <a href="https://www.manavanilla.com/shop/">Zum Shop</a>
+     </div>
+  </div>
     
-    <!-- hier 4 kleine Produktbilder als Vorschau einfügen-->
-    <div class="bild-container">
-      <img src="img/Homebild1.jpg" alt="Vanille 1">
-      <img src="img/Homebild2.jpg" alt="Vanille 2">
-      <img src="img/Homebild3.jpg" alt="Vanille 3">
-      <img src="img/Homebild4.jpg" alt="Vanille 4">
-    </div>
+  <!-- hier 4 kleine Produktbilder als Vorschau einfügen-->
+  <div class="bild-container">
+    <img src="/img/Homebild1.jpg" alt="Vanille 1">
+    <img src="/img/Homebild2.jpg" alt="Vanille 2">
+    <img src="/img/Homebild3.jpg" alt="Vanille 3">
+    <img src="/img/Homebild4.jpg" alt="Vanille 4">
+  </div>
 
-      <!-- Hier kommt für den Homebereichein Einführungstext hin-->
-    <div class="einführungstext">
-      <p>Bei ManaVanilla setzen wir uns leidenschaftlich für fairen Handel, Nachhaltigkeit und erstklassige Qualität ein.</p>
-      <p>Unsere Bio-Vanille aus der Region Mananara wird von Hand angebaut, geerntet und verarbeitet.</p>
-      <p>So können wir Ihnen ein unvergleichliches Geschmackserlebnis bieten.</p>
-      <p>&nbsp;</p>
-      <p>Entdecken Sie die traditionelle Geschichte von ManaVanilla.</p>
-    </div>
+  <!-- Hier kommt für den Homebereichein Einführungstext hin-->
+  <div class="einführungstext">
+    <p>Bei ManaVanilla setzen wir uns leidenschaftlich für fairen Handel, Nachhaltigkeit und erstklassige Qualität ein.</p>
+    <p>Unsere Bio-Vanille aus der Region Mananara wird von Hand angebaut, geerntet und verarbeitet.</p>
+    <p>So können wir Ihnen ein unvergleichliches Geschmackserlebnis bieten.</p>
+    <p>&nbsp;</p>
+    <p>Entdecken Sie die traditionelle Geschichte von ManaVanilla.</p>
+  </div>
        
 
-    <footer class="site-footer">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Kontakt</h3>
-          <p>ManaVanilla</p>
-            <p>Siedlerweg 22/2</p>
-            <p>Ravensburg</p>
-            <p>017643468134</p>
-            <p>E-Mail: Info@ManaVanilla.com</p>
-        </div>
-      
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Kontakt</h3>
+        <p>ManaVanilla</p>
+       <p>Siedlerweg 22/2</p>
+        <p>Ravensburg</p>
+        <p>017643468134</p>
+       <p>E-Mail: Info@ManaVanilla.com</p>
+     </div>
 
-        <div class="footer-section">
-          <h3>Rechtliches</h3>
-            <p><a href="impressum.html">Impressum</a></p>
-            <p><a href="Datenschutz.html">Datenschutz</a></p>
-            <p><a href="AGB.html">AGB</a></p>
-        </div>
+     <div class="footer-section">
+       <h3>Rechtliches</h3>
+        <p><a href="impressum.html">Impressum</a></p>
+       <p><a href="Datenschutz.html">Datenschutz</a></p>
+       <p><a href="AGB.html">AGB</a></p>
+     </div>
 
-        <div class="footer-section">
-          <h3>Folge uns</h3>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">TikTok</a></li>
-          </ul>
-        </div>
-      </div>
+     <div class="footer-section">
+       <h3>Folge uns</h3>
+       <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+     </div>
+    </div>
 
-      <div class="footer-bottom">
-        <p>&copy;2005 ManaVanilla. Alle Rechte vorbehalten</p>
-      </div>
+   <div class="footer-bottom">
+     <p>&copy;2005 ManaVanilla. Alle Rechte vorbehalten</p>
+    </div>
 
-      <div class="footer-logo">
-        <img src="img/LOGO.png" alt="Vanille" />
-      </div>
-
-    </footer>
+   <div class="footer-logo">
+      <img src="/img/LOGO.png" alt="Vanille" />
+    </div>
+  </footer>
 
 </body>
 

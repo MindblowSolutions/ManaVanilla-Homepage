@@ -1,12 +1,14 @@
-@media (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .banner {
     height: auto;
+    padding: 20px 1rem;
     text-align: center;
-    padding: 5px; /*padding: 20px; */
+    flex-direction: column;
   }
 
   .line1 {
-    font-size: 32px;
+    font-size: 36px;
+    margin-bottom: 8px;
   }
 
   .line2 {
@@ -14,107 +16,97 @@
   }
 
   .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0; /*padding: 10px 10px; */
-    gap: 10px;
-    margin: 5px;
-    width: calc(100% - 10px);
-    background-color: transparent;
-    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 10px 1rem;
+    gap: 5px;
   }
 
   .navbar a {
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
-    background-color: #FFE8AE;
-    color: #8E6C00;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-  }
-
-  .navbar a:hover {
-    background-color: #E6D19D;
-  }
-  
-  .home-text {
-    flex-direction: column;
-    padding: 20px;
-    height: auto;
-    text-align: center;
-  }
-
-  .lineb1 {
-    font-size: 24px;
-  }
-
-  .lineb2, .lineb3 {
     font-size: 14px;
-    padding: 0 10px;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .Titelbild {
+    padding: 0 1rem;
+  }
+
+  .willkommen-text,
+  .einführungstext {
+    padding: 10px 1rem;
+  }
+
+  .willkommen-text h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  /* Trick: Die 3 Wörter jeweils einzeln umbrechen */
+  .willkommen-text h2::after {
+    content: "Willkommen\nbei\nManaVanilla";
+    white-space: pre-line;
+    display: block;
+  }
+
+  .willkommen-text h2 {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+  }
+
+  .willkommen-text p,
+  .einführungstext p {
+    font-size: 14px;
   }
 
   .shopcontainer {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 1rem;
   }
 
   .shopbutton a {
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
-    text-align: center;
+    box-sizing: border-box;
   }
 
   .bild-container {
     flex-direction: column;
-    align-items: center;
     gap: 10px;
+    padding: 0 1rem;
   }
 
   .bild-container img {
-    width: 90%;
-    height: auto;
+    width: 100%;
   }
 
-  .einführungstext .text {
-    padding: 0 10px;
-    text-align: center;
+  .site-footer,
+  .footer-content {
+    padding: 20px 1rem;
+    gap: 20px;
   }
 
-  .linee1, .linee2, .linee3, .linee4 {
+  .footer-section {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h3 {
     font-size: 14px;
   }
 
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
+  .footer-section ul {
+    font-size: 12px;
   }
 
-
-  .footer-section {
-    flex: 0 0 100%;     /* volle Breite */
-    max-width: 100%;
+  .footer-logo img {
+    width: 120px;
   }
 
   .footer-bottom {
-    font-size: 10px;
-    margin-top: 10px;
-  }
-
-
-  /* ManaVanilla Logo */
-  .footer-logo img {
-    
-    text-align: center;
-    margin: 0;
-    width: 150px;
-    height: auto;
+    font-size: 11px;
+    margin-top: 16px;
   }
 }

@@ -37,23 +37,7 @@
   }
 
   .willkommen-text h2 {
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.4;
-    word-break: break-word;
-  }
-
-  /* Trick: Die 3 Wörter jeweils einzeln umbrechen */
-  .willkommen-text h2::after {
-    content: "Willkommen\nbei\nManaVanilla";
-    white-space: pre-line;
-    display: block;
-  }
-
-  .willkommen-text h2 {
-    visibility: hidden;
-    height: 0;
-    margin: 0;
+    font-size: 24px;
   }
 
   .willkommen-text p,

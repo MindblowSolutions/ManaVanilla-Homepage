@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
   .banner {
     height: auto;
-    padding: 5px;
+    padding: 20px 1rem;
     text-align: center;
     flex-direction: column;
   }
@@ -94,3 +94,19 @@
     margin-top: 16px;
   }
 }
+
+/*IMPRESSUM*/
+  .impressum-container {
+    flex-direction: column;
+    padding: 1cm;
+  }
+
+  .impressum-text,
+  .impressum-bild {
+    max-width: 100%;
+  }
+
+  .impressum-bild {
+    justify-content: center;
+    margin-top: 20px;
+  }

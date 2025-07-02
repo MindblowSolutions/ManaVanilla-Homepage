@@ -247,14 +247,15 @@ body {
 
 /* IMPRESSUM */
 .impressum-container {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
   background-color: #FFE8AE;
   margin: 5px auto 0 auto;
   padding: 0;
   width: 100%;
   max-width: 1586px;
-  box-sizing:border-box;
+  box-sizing: border-box;
   gap: 3cm;
 }
 

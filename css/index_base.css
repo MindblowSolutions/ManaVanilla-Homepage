@@ -137,18 +137,17 @@ body {
 /* Promobilder auf Startsteite */
 .bild-container {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 0 auto 50px auto;
-  padding: 0 0px;
-  height: auto;
-  max-width: 1586px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px auto 50px auto;
   width: 100%;
+  max-width: 1586px;
   box-sizing: border-box;
 }
 
 .bild-container img {
-  width: 50%;
+  flex: 1 1 calc(25% - 15px); /* 4 Bilder in eine Reihe – gap eingerechnet */
+  max-width: calc(25% - 15px);
   height: auto;
   object-fit: cover;
 }

@@ -102,11 +102,11 @@
   }
 
   .impressum-text,
-  .impressum-bild {
+  .impressumBildContainer { /
     max-width: 100%;
   }
 
-  .impressum-bild {
+  .impressumBildContainer { 
     justify-content: center;
     margin-top: 20px;
   }

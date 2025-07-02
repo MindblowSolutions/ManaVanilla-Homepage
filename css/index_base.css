@@ -257,9 +257,11 @@ body {
   max-width: 1586px;
   box-sizing: border-box;
   gap: 3cm;
+  align-items: stretch;
 }
 
 .impressum-text {
+  flex: 1;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -269,9 +271,11 @@ body {
   font-size: 16px;
   color: #8E6C00;
   width: 300px;
+  height: auto;
 }
 
 .impressumBildContainer{
+  flex: 1;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -281,7 +285,9 @@ body {
   font-size: 16px;
   color: #8E6C00;
   width: 300px;
+  height: auto;
 }
+
 
 
 /* zum Testen wie die container aussehen*/

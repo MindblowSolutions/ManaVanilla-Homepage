@@ -1,4 +1,5 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
+  
   .banner {
     height: auto;
     padding: 20px 1rem;
@@ -97,16 +98,16 @@
 
 /*IMPRESSUM*/
   .impressum-container {
-    flex-direction: column;
+    flex-direction: row;
     padding: 1cm;
   }
 
   .impressum-text,
-  .impressumBildContainer { /
+  .impressumBildContainer { 
     max-width: 100%;
   }
 
-  .impressumBildContainer { 
+  .impressumBildContainer {
     justify-content: center;
     margin-top: 20px;
   }

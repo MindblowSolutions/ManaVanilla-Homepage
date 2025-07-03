@@ -348,8 +348,136 @@ body {
   color: #8E6C00; 
 }
 
+/*AGB*/
 
+.AGBueberschrift{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
+  margin: 5px auto 0 auto;
+  padding: 1cm;
+  width: 100%;
+  max-width: 1586px;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.AGBueberschrift h3{
+  font-size: 32px;
+}
+
+.AGB-container{
+  max-width: 1586px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
+  margin: 5px auto 0px auto;
+  padding: 1cm;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.AGBtext{
+  font-size: 16px;
+  color: #8E6C00;
+}
+
+/*UEBERUNS*/
+
+.Personalcontainer{
+  max-width: 1586px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
+  margin: 5px auto 0px auto;
+  padding: 1cm;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.Melinda{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-bottom: 1cm;
+}
+
+.BildMelinda{
+  height: 500px;
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.TextMelinda{
+  height: 500px;
+  flex: 1;
+}
+
+.Papa{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.BildPapa{
+  height: 500px;
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.TextPapa{
+  height: 500px;
+  flex: 1;
+}
 /* zum Testen wie die container aussehen*/
+
+.Personalcontainer{
+  border: 2px solid red;
+}
+
+.Melinda{
+  border: 2px solid green;
+}
+
+.BildMelinda{
+  border: 2px solid blue;
+}
+
+.TextMelinda{
+  border: 2px solid black;
+}
+
+.Papa{
+  border: 2px solid green;
+}
+
+.BildPapa{
+  border: 2px solid blue;
+}
+
+.TextPapa{
+  border: 2px solid black;
+}
+/*
+.AGBueberschrift{
+  border: 2px solid black;
+}
+.AGB-container{
+  border: 2px solid red;
+}
+.AGBtext{
+  border: 2px solid green;
+}
+
 
 .datenschutzueberschrift{
   border: 2px solid black;
@@ -362,7 +490,7 @@ body {
   border: 2px solid green;
 }
 
-/*
+
 .impressumueberschrift{
   border: 2px solid black;
 }
@@ -377,4 +505,4 @@ body {
 .impressumBildContainer{
   border: 2px solid black;
 }
-  */
+*/

@@ -400,6 +400,28 @@ body {
   justify-content: center;
 }
 
+.Personal{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 1cm;
+}
+
+.BildPersonal{
+  height: 500px;
+  width: auto;
+  flex-shrink: 0;
+  margin-bottom: 0,5cm;
+}
+
+.TextPersonal{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
 .Melinda{
   height: 500px;
   width: 100%;
@@ -462,6 +484,18 @@ body {
 
 .Personalcontainer{
   border: 2px solid red;
+}
+
+.Personal{
+  border: 2px solid green;
+}
+
+.BildPersonal{
+  border: 2px solid blue;
+}
+
+.TextPersonal{
+  border: 2px solid black;
 }
 
 .Melinda{

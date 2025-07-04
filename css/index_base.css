@@ -485,14 +485,15 @@ body {
 .SeitencontainerProduktseite{
   max-width: 1586px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
   margin: 5px auto 0px auto;
   padding: 1cm;
   width: 100%;
   box-sizing: border-box;
-  align-items: stretch;
-  justify-content: center;
 }
 
 .Produktcontainer{

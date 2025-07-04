@@ -498,12 +498,13 @@ body {
 
 .Produktcontainer{
   height: 300px;
-  width: 110px;
+  width: 310px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   margin-bottom: 1cm;
   padding: 5px;
+  background-color: #FFE8AE;
 }
 
 .Bildcontainer{
@@ -511,6 +512,7 @@ body {
   width: 100%;
   text-align: center;
   margin-bottom: 0,5cm;
+  background-color: white;
 }
 .ProduktText{
   height: 50px;
@@ -518,12 +520,14 @@ body {
   text-align: center;
   margin-bottom: 0,5cm;
   margin-top: 5px;
+  background-color: white;
 }
 .shopbuttonProdukte{
   height: 50px;
   width: 100%;
   text-align: center;
   margin-top: 5px;
+  background-color: white;
 }
 
 
@@ -535,103 +539,21 @@ body {
 .Produktcontainer{
   border: 2px solid green;
 }
-.Bildcontainer{
+.Bildcontainer, .ProduktText, .shopbuttonProdukte{
   border: 2px solid blue;
 }
-.ProduktText{
-  border:  2px solid blue;
-}
-.shopbuttonProdukte{
-    border:  2px solid blue;
-}
+
 
 .Personalcontainer{
   border: 2px solid red;
 }
-
-.Personal{
+.Personal, .Melinda, .Papa, .Marie{
   border: 2px solid green;
 }
-
-.BildPersonal{
+.BildPersonal, .BildMelinda, .BildPapa, .BildMarie{
   border: 2px solid blue;
 }
-
-.TextPersonal{
+.TextPersonal, .TextMelinda, .TextPapa, .TextMarie{
   border: 2px solid black;
 }
 
-.Melinda{
-  border: 2px solid green;
-}
-
-.BildMelinda{
-  border: 2px solid blue;
-}
-
-.TextMelinda{
-  border: 2px solid black;
-}
-
-.Papa{
-  border: 2px solid green;
-}
-
-.BildPapa{
-  border: 2px solid blue;
-}
-
-.TextPapa{
-  border: 2px solid black;
-}
-
-.Marie{
-  border: 2px solid green;
-}
-
-.BildMarie{
-  border: 2px solid blue;
-}
-
-.TextMarie{
-  border: 2px solid black;
-}
-/*
-.AGBueberschrift{
-  border: 2px solid black;
-}
-.AGB-container{
-  border: 2px solid red;
-}
-.AGBtext{
-  border: 2px solid green;
-}
-
-
-.datenschutzueberschrift{
-  border: 2px solid black;
-}
-
-.Datenschutz-container{
-  border: 2px solid red;
-}
-.Datenschutztext{
-  border: 2px solid green;
-}
-
-
-.impressumueberschrift{
-  border: 2px solid black;
-}
-
-.impressum-container {
-  border: 2px solid red;
-}
-.impressum-text {
-  border: 2px solid green;
-}
-
-.impressumBildContainer{
-  border: 2px solid black;
-}
-*/

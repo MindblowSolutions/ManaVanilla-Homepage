@@ -480,7 +480,69 @@ body {
   height: 500px;
   flex: 1;
 }
+
+/*Produktseite*/
+.SeitencontainerProduktseite{
+  max-width: 1586px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
+  margin: 5px auto 0px auto;
+  padding: 1cm;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.Produktcontainer{
+  height: 300px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 1cm;
+  padding: 5px;
+}
+
+.Bildcontainer{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0,5cm;
+}
+.ProduktText{
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0,5cm;
+  margin-top: 5px;
+}
+.shopbuttonProdukte{
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
 /* zum Testen wie die container aussehen*/
+
+.SeitencontainerProduktseite{
+  border: 2px solid red;
+}
+.Produktcontainer{
+  border: 2px solid green;
+}
+.Bildcontainer{
+  border: 2px solid blue;
+}
+.ProduktText{
+  border:  2px solid blue;
+}
+.shopbuttonProdukte{
+    border:  2px solid blue;
+}
 
 .Personalcontainer{
   border: 2px solid red;

@@ -398,6 +398,7 @@ body {
   box-sizing: border-box;
   align-items: stretch;
   justify-content: center;
+  border: 5px solid #FFE8AE; /*umrandung*/
 }
 /*------------------------------*/
 .Marie,.Papa,.Melinda{
@@ -493,6 +494,8 @@ body {
   padding: 1cm;
   width: 100%;
   box-sizing: border-box;
+  border: 5px solid #FFE8AE ; /*umrandung*/
+
 }
 
 .Produktcontainer{
@@ -563,11 +566,12 @@ body {
 .Bildcontainer, .ProduktText, .shopbuttonProdukte{
   border: 2px solid blue;
 }
-*/
+
 
 .Personalcontainer{
-  border: 2px solid red;
+  border: 5px solid #FFE8AE ;
 }
+
 .Personal, .Melinda, .Papa, .Marie{
   border: 2px solid green;
 }
@@ -577,4 +581,4 @@ body {
 .TextPersonal, .TextMelinda, .TextPapa, .TextMarie{
   border: 2px solid black;
 }
-
+*/

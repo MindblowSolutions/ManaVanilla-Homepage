@@ -417,12 +417,10 @@ body {
   object-fit: contain;/*zeigt ganzes Bild ohne zu schneiden*/
   display: block;
 }
-
 .TextPersonal{
   height: 200px;
   width: 100%;
   text-align: center;
-  
 }
 
 .Melinda{
@@ -433,13 +431,17 @@ body {
   align-items: stretch;
   margin-bottom: 1cm;
 }
-
 .BildMelinda{
   height: 500px;
   width: 400px;
   flex-shrink: 0;
 }
-
+.BildMelinda img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* entfernt mögliche Lücken unter dem Bild */
+}
 .TextMelinda{
   height: 500px;
   flex: 1;
@@ -453,13 +455,17 @@ body {
   align-items: stretch;
   margin-bottom: 1cm;
 }
-
 .BildPapa{
   height: 500px;
   width: 400px;
   flex-shrink: 0;
 }
-
+.BildPapa img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* entfernt mögliche Lücken unter dem Bild */
+}
 .TextPapa{
   height: 500px;
   flex: 1;
@@ -473,13 +479,17 @@ body {
   align-items: stretch;
   margin-bottom: 1cm;
 }
-
 .BildMarie{
   height: 500px;
   width: 400px;
   flex-shrink: 0;
 }
-
+.BildMarie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* entfernt mögliche Lücken unter dem Bild */
+}
 .TextMarie{
   height: 500px;
   flex: 1;

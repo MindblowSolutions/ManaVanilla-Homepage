@@ -384,7 +384,7 @@ body {
   font-size: 16px;
   color: #8E6C00;
 }
-
+/*------------------------------------------------------------------------------------------------------------------*/
 /*UEBERUNS*/
 
 .Personalcontainer{
@@ -520,9 +520,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  border: none;
-  padding: 0;
+  display: block; /* entfernt mögliche Lücken unter dem Bild */
 }
 .ProduktText{
   height: 50px;
@@ -554,8 +552,112 @@ body {
   background-color: #FFE8AE;
 }
 
+/*--------------------------------------------------------------------------------------------------------*/
+/*Blogbeiträge*/
+
+.Blogcontainer{
+  max-width: 1586px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; /* Wichtig: kein Zeilenumbruch */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 5px auto 0px auto;
+  padding: 1cm;
+  width: 100%;
+  box-sizing: border-box;
+  border: 5px solid #FFE8AE ; /*umrandung*/
+}
+.Vanillepflanze{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1rem;
+}
+.BildVanillepflanze{
+  height: 500px;
+  width: 400px;
+  flex-shrink: 0;
+}
+.BildVanillepflanze img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* entfernt mögliche Lücken unter dem Bild */
+}
+.TextVanillepflanze{
+  height: 500px;
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;       /* vertikal */
+  align-items: center;           /* horizontal */
+  padding: 1cm 1rem;
+  text-align: center;
+}
+.TextContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.TextVanillepflanze h2 {
+  margin-top: 0;
+  margin-bottom: 1cm;
+}
+.TextVanillepflanze p {
+  margin: 10px 0;
+  max-width: 90%;
+}
+
+.vierBildVanillepflanze{
+width: 100%;
+padding: 0;
+box-sizing: border-box;
+}
+.vierBildVanillepflanze h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.BilderContainer{
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+}
+.BilderContainer img{
+  width: 23%;
+  height: 200px;
+  object-fit: cover;
+  
+}
+
+/*--------------------------*/
 
 /* zum Testen wie die container aussehen*/
+
+.Blogcontainer{
+  border: 5px solid #ffaefb ;
+}
+
+.Vanillepflanze{
+  border: 2px solid green;
+}
+.BildVanillepflanze{
+  border: 2px solid blue;
+}
+.TextVanillepflanze{
+  border: 2px solid black;
+}
+.vierBildVanillepflanze{
+  border: 2px solid red;
+}
+.BilderContainer{
+  border: 2px solid orange;
+}
+
+
 /*
 .SeitencontainerProduktseite{
   border: 2px solid red;

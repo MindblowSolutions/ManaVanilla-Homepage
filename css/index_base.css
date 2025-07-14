@@ -574,11 +574,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  gap: 1rem;
+  gap: 10px;
 }
 .BildVanillepflanze{
   height: 500px;
-  width: 400px;
+  width: 350px;
   flex-shrink: 0;
 }
 .BildVanillepflanze img{
@@ -619,7 +619,7 @@ box-sizing: border-box;
 }
 .vierBildVanillepflanze h2{
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 .BilderContainer{
   display: flex;
@@ -627,8 +627,8 @@ box-sizing: border-box;
   gap: 0;
 }
 .BilderContainer img{
-  width: 23%;
-  height: 200px;
+  width: 350px; /*23%*/
+  height: 350px;
   object-fit: cover;
   
 }
@@ -637,6 +637,7 @@ box-sizing: border-box;
 
 /* zum Testen wie die container aussehen*/
 
+/*
 .Blogcontainer{
   border: 5px solid #ffaefb ;
 }
@@ -656,7 +657,7 @@ box-sizing: border-box;
 .BilderContainer{
   border: 2px solid orange;
 }
-
+*/
 
 /*
 .SeitencontainerProduktseite{
